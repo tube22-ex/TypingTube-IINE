@@ -1,0 +1,41 @@
+*{
+    font-size: 15px;
+    color: rgb(222, 222, 222);
+    background-color: black;
+}
+
+div#contents{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.item{
+    border: 1px solid rgb(0, 255, 38);
+    padding: 1px 5px;
+    margin: 10px;
+    width: 17vw;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration-line: none;
+}
+
+img{
+    width: 80%;
+}
+
+div.info{
+    margin-bottom: 0.2em;
+}
+
+div.info > span{
+    font-size: 1em;
+}
+
+p.title{
+    font-size: 1.2em;
+    text-align: left;
+}
