@@ -11,7 +11,7 @@ like_data.forEach((d)=>{
             </div>
             <img src='${d["IMG"]}'>
             <p class="title">${d["TITLE"]}</p>
-        <a href='${d["URL"]}'>
+        </a>
     </div>
     
     `)
